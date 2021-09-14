@@ -39,6 +39,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		12C0F63826F10F9C00FCE17E /* App */ = {
+			isa = PBXGroup;
+			children = (
+				12E2F1B526EBD45200725619 /* AppDelegate.swift */,
+				12E2F1B726EBD45200725619 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		12C0F63926F10FA500FCE17E /* lesson-1 */ = {
+			isa = PBXGroup;
+			children = (
+				12E2F1B926EBD45200725619 /* ViewController.swift */,
+			);
+			path = "lesson-1";
+			sourceTree = "<group>";
+		};
+		12C0F63A26F10FB200FCE17E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				12E2F1BB26EBD45200725619 /* Main.storyboard */,
+				12E2F1C126EBD45400725619 /* Assets.xcassets */,
+				12E2F1C326EBD45400725619 /* LaunchScreen.storyboard */,
+				12E2F1C626EBD45400725619 /* Info.plist */,
+				12E2F1BE26EBD45200725619 /* performance_1435.xcdatamodeld */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		12E2F1A926EBD45200725619 = {
 			isa = PBXGroup;
 			children = (
@@ -58,14 +87,9 @@
 		12E2F1B426EBD45200725619 /* performance-1435 */ = {
 			isa = PBXGroup;
 			children = (
-				12E2F1B526EBD45200725619 /* AppDelegate.swift */,
-				12E2F1B726EBD45200725619 /* SceneDelegate.swift */,
-				12E2F1B926EBD45200725619 /* ViewController.swift */,
-				12E2F1BB26EBD45200725619 /* Main.storyboard */,
-				12E2F1C126EBD45400725619 /* Assets.xcassets */,
-				12E2F1C326EBD45400725619 /* LaunchScreen.storyboard */,
-				12E2F1C626EBD45400725619 /* Info.plist */,
-				12E2F1BE26EBD45200725619 /* performance_1435.xcdatamodeld */,
+				12C0F63826F10F9C00FCE17E /* App */,
+				12C0F63926F10FA500FCE17E /* lesson-1 */,
+				12C0F63A26F10FB200FCE17E /* Resources */,
 			);
 			path = "performance-1435";
 			sourceTree = "<group>";
