@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12C0F63D26F1101B00FCE17E /* GCDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C0F63C26F1101B00FCE17E /* GCDViewController.swift */; };
 		12E2F1B626EBD45200725619 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E2F1B526EBD45200725619 /* AppDelegate.swift */; };
 		12E2F1B826EBD45200725619 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E2F1B726EBD45200725619 /* SceneDelegate.swift */; };
 		12E2F1BA26EBD45200725619 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E2F1B926EBD45200725619 /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		12C0F63C26F1101B00FCE17E /* GCDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GCDViewController.swift; sourceTree = "<group>"; };
 		12E2F1B226EBD45200725619 /* performance-1435.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "performance-1435.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		12E2F1B526EBD45200725619 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		12E2F1B726EBD45200725619 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -68,6 +70,14 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		12C0F63B26F1100100FCE17E /* lesson-2 */ = {
+			isa = PBXGroup;
+			children = (
+				12C0F63C26F1101B00FCE17E /* GCDViewController.swift */,
+			);
+			path = "lesson-2";
+			sourceTree = "<group>";
+		};
 		12E2F1A926EBD45200725619 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				12C0F63826F10F9C00FCE17E /* App */,
+				12C0F63B26F1100100FCE17E /* lesson-2 */,
 				12C0F63926F10FA500FCE17E /* lesson-1 */,
 				12C0F63A26F10FB200FCE17E /* Resources */,
 			);
@@ -165,6 +176,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				12E2F1BA26EBD45200725619 /* ViewController.swift in Sources */,
+				12C0F63D26F1101B00FCE17E /* GCDViewController.swift in Sources */,
 				12E2F1B626EBD45200725619 /* AppDelegate.swift in Sources */,
 				12E2F1B826EBD45200725619 /* SceneDelegate.swift in Sources */,
 				12E2F1C026EBD45200725619 /* performance_1435.xcdatamodeld in Sources */,
@@ -316,7 +328,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 77XX2PXRV7;
-				INFOPLIST_FILE = "performance-1435/Info.plist";
+				INFOPLIST_FILE = "performance-1435/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -335,7 +347,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 77XX2PXRV7;
-				INFOPLIST_FILE = "performance-1435/Info.plist";
+				INFOPLIST_FILE = "performance-1435/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
