@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		126A4B5A26F506030056B74A /* OperationQueueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126A4B5926F506030056B74A /* OperationQueueViewController.swift */; };
 		12C0F63D26F1101B00FCE17E /* GCDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C0F63C26F1101B00FCE17E /* GCDViewController.swift */; };
 		12E2F1B626EBD45200725619 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E2F1B526EBD45200725619 /* AppDelegate.swift */; };
 		12E2F1B826EBD45200725619 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E2F1B726EBD45200725619 /* SceneDelegate.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		126A4B5926F506030056B74A /* OperationQueueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationQueueViewController.swift; sourceTree = "<group>"; };
 		12C0F63C26F1101B00FCE17E /* GCDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GCDViewController.swift; sourceTree = "<group>"; };
 		12E2F1B226EBD45200725619 /* performance-1435.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "performance-1435.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		12E2F1B526EBD45200725619 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,6 +43,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		126A4B5826F505E60056B74A /* lesson-3 */ = {
+			isa = PBXGroup;
+			children = (
+				126A4B5926F506030056B74A /* OperationQueueViewController.swift */,
+			);
+			path = "lesson-3";
+			sourceTree = "<group>";
+		};
 		12C0F63826F10F9C00FCE17E /* App */ = {
 			isa = PBXGroup;
 			children = (
@@ -98,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				12C0F63826F10F9C00FCE17E /* App */,
+				126A4B5826F505E60056B74A /* lesson-3 */,
 				12C0F63B26F1100100FCE17E /* lesson-2 */,
 				12C0F63926F10FA500FCE17E /* lesson-1 */,
 				12C0F63A26F10FB200FCE17E /* Resources */,
@@ -177,6 +188,7 @@
 			files = (
 				12E2F1BA26EBD45200725619 /* ViewController.swift in Sources */,
 				12C0F63D26F1101B00FCE17E /* GCDViewController.swift in Sources */,
+				126A4B5A26F506030056B74A /* OperationQueueViewController.swift in Sources */,
 				12E2F1B626EBD45200725619 /* AppDelegate.swift in Sources */,
 				12E2F1B826EBD45200725619 /* SceneDelegate.swift in Sources */,
 				12E2F1C026EBD45200725619 /* performance_1435.xcdatamodeld in Sources */,
