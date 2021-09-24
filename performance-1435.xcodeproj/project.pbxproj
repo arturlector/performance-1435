@@ -3,11 +3,18 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1233082226FE41C0008BFEE8 /* PromiseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1233082126FE41C0008BFEE8 /* PromiseViewController.swift */; };
+		1233082426FE424A008BFEE8 /* Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1233082326FE424A008BFEE8 /* Promise.swift */; };
+		1233082726FE4917008BFEE8 /* PromiseKit in Frameworks */ = {isa = PBXBuildFile; productRef = 1233082626FE4917008BFEE8 /* PromiseKit */; };
+		1233082926FE4947008BFEE8 /* PromiseKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1233082826FE4946008BFEE8 /* PromiseKitViewController.swift */; };
+		1233082C26FE4A8C008BFEE8 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 1233082B26FE4A8C008BFEE8 /* Alamofire */; };
 		126A4B5A26F506030056B74A /* OperationQueueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126A4B5926F506030056B74A /* OperationQueueViewController.swift */; };
+		126A4B6226F8F2DA0056B74A /* DispatchGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126A4B6026F8F2DA0056B74A /* DispatchGroupViewController.swift */; };
+		126A4B6326F8F2DA0056B74A /* DocumentStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126A4B6126F8F2DA0056B74A /* DocumentStore.swift */; };
 		12C0F63D26F1101B00FCE17E /* GCDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C0F63C26F1101B00FCE17E /* GCDViewController.swift */; };
 		12E2F1B626EBD45200725619 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E2F1B526EBD45200725619 /* AppDelegate.swift */; };
 		12E2F1B826EBD45200725619 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E2F1B726EBD45200725619 /* SceneDelegate.swift */; };
@@ -19,7 +26,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1233082126FE41C0008BFEE8 /* PromiseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromiseViewController.swift; sourceTree = "<group>"; };
+		1233082326FE424A008BFEE8 /* Promise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Promise.swift; sourceTree = "<group>"; };
+		1233082826FE4946008BFEE8 /* PromiseKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromiseKitViewController.swift; sourceTree = "<group>"; };
 		126A4B5926F506030056B74A /* OperationQueueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationQueueViewController.swift; sourceTree = "<group>"; };
+		126A4B6026F8F2DA0056B74A /* DispatchGroupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DispatchGroupViewController.swift; sourceTree = "<group>"; };
+		126A4B6126F8F2DA0056B74A /* DocumentStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DocumentStore.swift; sourceTree = "<group>"; };
 		12C0F63C26F1101B00FCE17E /* GCDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GCDViewController.swift; sourceTree = "<group>"; };
 		12E2F1B226EBD45200725619 /* performance-1435.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "performance-1435.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		12E2F1B526EBD45200725619 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -37,12 +49,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1233082726FE4917008BFEE8 /* PromiseKit in Frameworks */,
+				1233082C26FE4A8C008BFEE8 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1233082026FE41AB008BFEE8 /* lesson-4 */ = {
+			isa = PBXGroup;
+			children = (
+				1233082126FE41C0008BFEE8 /* PromiseViewController.swift */,
+				1233082326FE424A008BFEE8 /* Promise.swift */,
+				1233082826FE4946008BFEE8 /* PromiseKitViewController.swift */,
+			);
+			path = "lesson-4";
+			sourceTree = "<group>";
+		};
 		126A4B5826F505E60056B74A /* lesson-3 */ = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +107,8 @@
 		12C0F63B26F1100100FCE17E /* lesson-2 */ = {
 			isa = PBXGroup;
 			children = (
+				126A4B6026F8F2DA0056B74A /* DispatchGroupViewController.swift */,
+				126A4B6126F8F2DA0056B74A /* DocumentStore.swift */,
 				12C0F63C26F1101B00FCE17E /* GCDViewController.swift */,
 			);
 			path = "lesson-2";
@@ -108,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				12C0F63826F10F9C00FCE17E /* App */,
+				1233082026FE41AB008BFEE8 /* lesson-4 */,
 				126A4B5826F505E60056B74A /* lesson-3 */,
 				12C0F63B26F1100100FCE17E /* lesson-2 */,
 				12C0F63926F10FA500FCE17E /* lesson-1 */,
@@ -132,6 +159,10 @@
 			dependencies = (
 			);
 			name = "performance-1435";
+			packageProductDependencies = (
+				1233082626FE4917008BFEE8 /* PromiseKit */,
+				1233082B26FE4A8C008BFEE8 /* Alamofire */,
+			);
 			productName = "performance-1435";
 			productReference = 12E2F1B226EBD45200725619 /* performance-1435.app */;
 			productType = "com.apple.product-type.application";
@@ -159,6 +190,10 @@
 				Base,
 			);
 			mainGroup = 12E2F1A926EBD45200725619;
+			packageReferences = (
+				1233082526FE4917008BFEE8 /* XCRemoteSwiftPackageReference "PromiseKit" */,
+				1233082A26FE4A8C008BFEE8 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 12E2F1B326EBD45200725619 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -188,9 +223,14 @@
 			files = (
 				12E2F1BA26EBD45200725619 /* ViewController.swift in Sources */,
 				12C0F63D26F1101B00FCE17E /* GCDViewController.swift in Sources */,
+				126A4B6326F8F2DA0056B74A /* DocumentStore.swift in Sources */,
 				126A4B5A26F506030056B74A /* OperationQueueViewController.swift in Sources */,
 				12E2F1B626EBD45200725619 /* AppDelegate.swift in Sources */,
+				1233082926FE4947008BFEE8 /* PromiseKitViewController.swift in Sources */,
+				1233082226FE41C0008BFEE8 /* PromiseViewController.swift in Sources */,
 				12E2F1B826EBD45200725619 /* SceneDelegate.swift in Sources */,
+				1233082426FE424A008BFEE8 /* Promise.swift in Sources */,
+				126A4B6226F8F2DA0056B74A /* DispatchGroupViewController.swift in Sources */,
 				12E2F1C026EBD45200725619 /* performance_1435.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -393,6 +433,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1233082526FE4917008BFEE8 /* XCRemoteSwiftPackageReference "PromiseKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mxcl/PromiseKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.15.3;
+			};
+		};
+		1233082A26FE4A8C008BFEE8 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1233082626FE4917008BFEE8 /* PromiseKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1233082526FE4917008BFEE8 /* XCRemoteSwiftPackageReference "PromiseKit" */;
+			productName = PromiseKit;
+		};
+		1233082B26FE4A8C008BFEE8 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1233082A26FE4A8C008BFEE8 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		12E2F1BE26EBD45200725619 /* performance_1435.xcdatamodeld */ = {

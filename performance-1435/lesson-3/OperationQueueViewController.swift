@@ -93,7 +93,6 @@ class OperationQueueViewController: UIViewController {
                 print("🤡\(i)")
                 self.printThread()
             }
-            
         }
         
         queue.addOperation {
@@ -101,7 +100,6 @@ class OperationQueueViewController: UIViewController {
                 print("🤖\(i)")
                 self.printThread()
             }
-            
         }
         
         
