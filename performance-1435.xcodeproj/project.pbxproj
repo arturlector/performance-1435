@@ -15,6 +15,7 @@
 		126A4B5A26F506030056B74A /* OperationQueueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126A4B5926F506030056B74A /* OperationQueueViewController.swift */; };
 		126A4B6226F8F2DA0056B74A /* DispatchGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126A4B6026F8F2DA0056B74A /* DispatchGroupViewController.swift */; };
 		126A4B6326F8F2DA0056B74A /* DocumentStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126A4B6126F8F2DA0056B74A /* DocumentStore.swift */; };
+		12999FDF2710AC6E004F15D7 /* TestTasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12999FDE2710AC6E004F15D7 /* TestTasksViewController.swift */; };
 		12C0F63D26F1101B00FCE17E /* GCDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C0F63C26F1101B00FCE17E /* GCDViewController.swift */; };
 		12E2F1B626EBD45200725619 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E2F1B526EBD45200725619 /* AppDelegate.swift */; };
 		12E2F1B826EBD45200725619 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E2F1B726EBD45200725619 /* SceneDelegate.swift */; };
@@ -32,6 +33,7 @@
 		126A4B5926F506030056B74A /* OperationQueueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationQueueViewController.swift; sourceTree = "<group>"; };
 		126A4B6026F8F2DA0056B74A /* DispatchGroupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DispatchGroupViewController.swift; sourceTree = "<group>"; };
 		126A4B6126F8F2DA0056B74A /* DocumentStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DocumentStore.swift; sourceTree = "<group>"; };
+		12999FDE2710AC6E004F15D7 /* TestTasksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTasksViewController.swift; sourceTree = "<group>"; };
 		12C0F63C26F1101B00FCE17E /* GCDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GCDViewController.swift; sourceTree = "<group>"; };
 		12E2F1B226EBD45200725619 /* performance-1435.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "performance-1435.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		12E2F1B526EBD45200725619 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -73,6 +75,14 @@
 				126A4B5926F506030056B74A /* OperationQueueViewController.swift */,
 			);
 			path = "lesson-3";
+			sourceTree = "<group>";
+		};
+		12999FDD2710AC53004F15D7 /* lesson-8 */ = {
+			isa = PBXGroup;
+			children = (
+				12999FDE2710AC6E004F15D7 /* TestTasksViewController.swift */,
+			);
+			path = "lesson-8";
 			sourceTree = "<group>";
 		};
 		12C0F63826F10F9C00FCE17E /* App */ = {
@@ -134,6 +144,7 @@
 			isa = PBXGroup;
 			children = (
 				12C0F63826F10F9C00FCE17E /* App */,
+				12999FDD2710AC53004F15D7 /* lesson-8 */,
 				1233082026FE41AB008BFEE8 /* lesson-4 */,
 				126A4B5826F505E60056B74A /* lesson-3 */,
 				12C0F63B26F1100100FCE17E /* lesson-2 */,
@@ -230,6 +241,7 @@
 				1233082226FE41C0008BFEE8 /* PromiseViewController.swift in Sources */,
 				12E2F1B826EBD45200725619 /* SceneDelegate.swift in Sources */,
 				1233082426FE424A008BFEE8 /* Promise.swift in Sources */,
+				12999FDF2710AC6E004F15D7 /* TestTasksViewController.swift in Sources */,
 				126A4B6226F8F2DA0056B74A /* DispatchGroupViewController.swift in Sources */,
 				12E2F1C026EBD45200725619 /* performance_1435.xcdatamodeld in Sources */,
 			);
